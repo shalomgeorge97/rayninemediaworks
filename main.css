@@ -18,19 +18,31 @@ h4 {
   margin-bottom: 30px;
 }
 .jumbotron {
+  background: url(img/bg1.jpg) no-repeat 90% 90%;
+  background-size: 100%;
   background-color: #a40003;
   color: #fff;
-  padding: 100px 25px;
+  padding: 250px 0px;
   font-family: Montserrat, sans-serif;
 }
+
+.showcase {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.showcase h1 {
+  font-weight: 900;
+}
+.highlight {
+  color: #a40003;
+}
+
 .downbtn .glyphicon {
+  color: #a40003;
   position: relative;
   top: 170px;
   font-size: 40px;
   animation: ani 1s infinite;
   -webkit-animation: ani 1s infinite;
-
-  color: #fff;
 }
 @keyframes ani {
   0% {
@@ -187,6 +199,9 @@ footer .glyphicon {
 }
 
 @media screen and (max-width: 768px) {
+  .jumbotron {
+    background-size: 210%;
+  }
   .col-sm-4 {
     text-align: center;
     margin: 25px 0;
