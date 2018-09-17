@@ -3,11 +3,11 @@
 
 <head>
     <!-- Theme Made By www.w3schools.com - No Copyright -->
-    <title>Raynine MediaWorks</title>
+    <title>Bootstrap Theme Company Page</title>
+    <link rel="shortcut icon" type="image/png" href="img/title-logo.png">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/png" href="img/title-logo.png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
@@ -15,6 +15,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="main.css">
     <script src="main.js"></script>
+    <style>
+    </style>
 </head>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -27,15 +29,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#myPage"></a>
+                <!-- <a class="navbar-brand" href="#myPage">Raynine MediaWorks</a> -->
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
-                <img class="navbar-logo" src="img/rnmlogo1.png" alt="">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#myPage">HOME</a></li>
                     <li><a href="#about">ABOUT</a></li>
                     <li><a href="#services">SERVICES</a></li>
                     <li><a href="#client">CLIENTS</a></li>
+
                     <li><a href="#contact">CONTACT</a></li>
                 </ul>
             </div>
@@ -43,10 +44,16 @@
     </nav>
 
     <div class="jumbotron text-center">
-        <div class="showcase">
-            <h1> <span class="highlight">Raynine</span> MediaWorks</h1>
-            <p>The best media and communication service you can find.</p>
-        </div>
+        <h1> <span class="highlight">Raynine</span> MediaWorks</h1>
+        <p>The best media and communication service you can find.</p>
+        <!-- <form>
+            <div class="input-group">
+                <input type="email" class="form-control" size="50" placeholder="Email Address" required>
+                <div class="input-group-btn">
+                    <button type="button" class="btn btn-danger">Subscribe</button>
+                </div>
+            </div>
+        </form> -->
         <a class="downbtn" href="#about" title="To Top">
 
             <span class="glyphicon glyphicon-chevron-down"></span>
@@ -54,9 +61,9 @@
     </div>
 
     <!-- Container (About Section) -->
-    <div id="about" class="container-fluid bg-grey">
+    <div id="about" class="container-fluid text-center">
         <div class="row">
-            <div class="container">
+            <div class="col">
                 <h2><span class="highlight">About</span> Us</h2><br>
                 <h4>We are a Mumbai-based consultancy firm. We aim to serve our clients high class media services with a
                     fresh approach, combining professionalism with quality performance. We desire to provide quality finesse
@@ -73,8 +80,7 @@
                     <br> With so many media platforms such as Facebook, Twitter,Instagram, LinkedIn, Google+, Pinterest and
                     more at your fingertips, it is really tricky to know the best fit for your needs. Let us manage each
                     platform, apply design tools, media analytical tools and we will make you an instant hit!</p>
-                <br><a class="about" href="#contact"><button class="btn btn-default btn-lg"> Get in Touch</button></a>
-            </div>
+                <br><a class="about" href="#contact"><button class="btn btn-default btn-lg"> Get in Touch</button></a></div>
 
         </div>
     </div>
@@ -99,14 +105,12 @@
     </div> -->
 
     <!-- Container (Services Section) -->
-    <div id="services" class="container-fluid text-center">
+    <div id="services" class="container-fluid text-center bg-grey">
         <h2>SERVICES</h2>
         <h4>We offer a plethora of dynamic services like digital marketing, online advertising and PR using digital media
             and social media.</h4>
-        <img src="img/Fb.jpg" alt="">
-
-        <br>
-        <!-- <div class="row slideanim">
+        <!-- <br>
+        <div class="row slideanim">
             <div class="col-sm-4">
                 <span class="glyphicon glyphicon-off logo-small"></span>
                 <h4>POWER</h4>
@@ -139,24 +143,23 @@
                 <span class="glyphicon glyphicon-wrench logo-small"></span>
                 <h4 style="color:#303030;">HARD WORK</h4>
                 <p>Lorem ipsum dolor sit amet..</p>
-            </div> -->
-    </div>
+            </div>
+        </div> -->
     </div>
 
     <!-- Container (Portfolio Section) -->
-    <div id="client" class="container-fluid text-center bg-grey">
-        <h2>Our Clients</h2><br>
-        <img src="img/1503497665846.png" alt="">
+    <div id="client" class="container-fluid text-center">
+        <h2>CLIENTS</h2><br>
         <!-- <h4>What we have created</h4> -->
-        <!-- <div class="row text-center slideanim">
+        <div class="row text-center slideanim">
             <div class="col-sm-4">
                 <div class="thumbnail">
-                    <img src="paris.jpg" alt="Paris" width="400" height="300">
-                    <p><strong>Paris</strong></p>
-                    <p>Yes, we built Paris</p>
+                    <img src="img/1503497665846.png" alt="Paris" width="400" height="300">
+                    <!-- <p><strong>Paris</strong></p>
+                    <p>Yes, we built Paris</p> -->
                 </div>
             </div>
-            <div class="col-sm-4">
+            <!-- <div class="col-sm-4">
                 <div class="thumbnail">
                     <img src="newyork.jpg" alt="New York" width="400" height="300">
                     <p><strong>New York</strong></p>
@@ -169,50 +172,113 @@
                     <p><strong>San Francisco</strong></p>
                     <p>Yes, San Fran is ours</p>
                 </div>
-            </div>
-        </div><br> -->
+            </div> -->
+        </div>
+        <br>
 
-        <h2>What our customers say</h2>
+        <!-- <h2>What our customers say</h2> -->
         <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
             <!-- Indicators -->
-            <ol class="carousel-indicators">
+            <!-- <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>
+            </ol> -->
 
             <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
+            <!-- <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <h4>"This company is the best. I am so happy with the result!"<br><span>Michael Roe, Vice President,
-                            Comment Box</span></h4>
+                    <h4>"This company is the best. I am so happy with the result!"<br><span>Kevin De'Winter</span></h4>
                 </div>
                 <div class="item">
-                    <h4>"One word... WOW!!"<br><span>John Doe, Salesman, Rep Inc</span></h4>
+                    <h4>"One word... WOW!!"<br><span>John Thomas</span></h4>
                 </div>
                 <div class="item">
-                    <h4>"Could I... BE any more happy with this company?"<br><span>Chandler Bing, Actor, FriendsAlot</span></h4>
+                    <h4>"Could I... BE any more happy with this company?"<br><span>Akshay Kadam</span></h4>
                 </div>
-            </div>
+            </div> -->
 
             <!-- Left and right controls -->
-            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <!-- <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </a>
             <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
                 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
-            </a>
+            </a> -->
         </div>
     </div>
 
-
-
-
+    <!-- Container (Pricing Section)
+    <div id="pricing" class="container-fluid">
+        <div class="text-center">
+            <h2>Pricing</h2>
+            <h4>Choose a payment plan that works for you</h4>
+        </div>
+        <div class="row slideanim">
+            <div class="col-sm-4 col-xs-12">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <h1>Basic</h1>
+                    </div>
+                    <div class="panel-body">
+                        <p><strong>20</strong> Lorem</p>
+                        <p><strong>15</strong> Ipsum</p>
+                        <p><strong>5</strong> Dolor</p>
+                        <p><strong>2</strong> Sit</p>
+                        <p><strong>Endless</strong> Amet</p>
+                    </div>
+                    <div class="panel-footer">
+                        <h3>$19</h3>
+                        <h4>per month</h4>
+                        <button class="btn btn-lg">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <h1>Pro</h1>
+                    </div>
+                    <div class="panel-body">
+                        <p><strong>50</strong> Lorem</p>
+                        <p><strong>25</strong> Ipsum</p>
+                        <p><strong>10</strong> Dolor</p>
+                        <p><strong>5</strong> Sit</p>
+                        <p><strong>Endless</strong> Amet</p>
+                    </div>
+                    <div class="panel-footer">
+                        <h3>$29</h3>
+                        <h4>per month</h4>
+                        <button class="btn btn-lg">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <h1>Premium</h1>
+                    </div>
+                    <div class="panel-body">
+                        <p><strong>100</strong> Lorem</p>
+                        <p><strong>50</strong> Ipsum</p>
+                        <p><strong>25</strong> Dolor</p>
+                        <p><strong>10</strong> Sit</p>
+                        <p><strong>Endless</strong> Amet</p>
+                    </div>
+                    <div class="panel-footer">
+                        <h3>$49</h3>
+                        <h4>per month</h4>
+                        <button class="btn btn-lg">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
 
     <!-- Container (Contact Section) -->
-    <div id="contact" class="container-fluid">
+    <div id="contact" class="container-fluid bg-grey">
         <h2 class="text-center">CONTACT</h2>
         <div class="row">
             <div class="col-sm-5">
@@ -220,7 +286,7 @@
                 <p><span class="glyphicon glyphicon-map-marker"></span> Airoli, Thane</p>
                 <p><span class="glyphicon glyphicon-phone"></span> +91 7715932717
                 </p>
-                <p><span class="glyphicon glyphicon-envelope"></span>rayninemediaworks@gmail.com</p>
+                <p><span class="glyphicon glyphicon-envelope"></span> rayninemediaworks@gmail.com</p>
             </div>
             <div class="col-sm-7 slideanim">
                 <div class="row">
@@ -251,19 +317,20 @@
             var marker = new google.maps.Marker({ position: myCenter });
             marker.setMap(map);
         }
-    </script> -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script> -->
     <!--
 To use this code on your website, get a free API key from Google.
 Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
 -->
 
-    <footer class="container-fluid text-center bg-grey">
+    <footer class="container-fluid text-center">
         <a href="#myPage" title="To Top">
             <span class="glyphicon glyphicon-chevron-up"></span>
         </a>
         <p>Raynine Media Works, Copyright &copy;,2018</p>
     </footer>
+
 </body>
 
 </html>
