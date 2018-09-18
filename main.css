@@ -141,9 +141,7 @@ h4 {
 }
 
 .navbar {
-  /* top: -50px; */
   margin-bottom: 0;
-  /* background-color: #a40003; */
   z-index: 9999;
   border: 0;
   font-size: 12px !important;
