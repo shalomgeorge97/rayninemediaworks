@@ -149,6 +149,9 @@ h4 {
   border-radius: 0;
   font-family: Montserrat, sans-serif;
 }
+nav ul {
+  padding: 10px 0 0 0;
+}
 .navbar li a,
 .navbar .navbar-brand {
   color: #fff !important;
@@ -200,8 +203,14 @@ footer .glyphicon {
 }
 
 @media screen and (max-width: 580px) {
+  .navbar {
+    padding: 0;
+  }
   nav img {
     padding: 0 0 0 10px;
+  }
+  nav ul {
+    padding: 0;
   }
   .jumbotron {
     background-size: 210%;
