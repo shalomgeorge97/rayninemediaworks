@@ -24,7 +24,6 @@ h4 {
   color: #fff;
   padding: 250px 0px;
   font-family: Montserrat, sans-serif;
-  text-align: center;
 }
 
 .showcase {
@@ -201,24 +200,27 @@ footer .glyphicon {
 }
 
 @media screen and (max-width: 580px) {
+  nav img {
+    padding: 0 0 0 10px;
+  }
   .jumbotron {
     background-size: 210%;
     padding: 150px 0;
   }
   .downbtn .glyphicon {
-    top: 140px;
+    top: 100px;
     animation: ani 1s infinite;
     -webkit-animation: ani 1s infinite;
   }
   @keyframes ani {
     0% {
-      top: 140px;
+      top: 100px;
     }
     50% {
-      top: 150px;
+      top: 110px;
     }
     100% {
-      top: 140px;
+      top: 100px;
     }
   }
   .col-sm-4 {
