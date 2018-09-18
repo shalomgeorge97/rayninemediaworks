@@ -24,6 +24,7 @@ h4 {
   color: #fff;
   padding: 250px 0px;
   font-family: Montserrat, sans-serif;
+  text-align: center;
 }
 
 .showcase {
@@ -138,9 +139,11 @@ h4 {
   background-color: #a40003;
   color: #fff;
 }
+
 .navbar {
+  /* top: -50px; */
   margin-bottom: 0;
-  background-color: #a40003;
+  /* background-color: #a40003; */
   z-index: 9999;
   border: 0;
   font-size: 12px !important;
@@ -162,6 +165,7 @@ h4 {
   border-color: transparent;
   color: #fff !important;
 }
+
 footer .glyphicon {
   font-size: 20px;
   margin-bottom: 20px;
@@ -198,9 +202,26 @@ footer .glyphicon {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 580px) {
   .jumbotron {
     background-size: 210%;
+    padding: 150px 0;
+  }
+  .downbtn .glyphicon {
+    top: 140px;
+    animation: ani 1s infinite;
+    -webkit-animation: ani 1s infinite;
+  }
+  @keyframes ani {
+    0% {
+      top: 140px;
+    }
+    50% {
+      top: 150px;
+    }
+    100% {
+      top: 140px;
+    }
   }
   .col-sm-4 {
     text-align: center;

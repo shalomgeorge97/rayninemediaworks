@@ -7,6 +7,7 @@ $(document).ready(function() {
     if (this.hash !== "") {
       // Prevent default anchor click behavior
       event.preventDefault();
+      //toggle back nav on selection
       $("#myNavbar").removeClass("in");
       // Store hash
       var hash = this.hash;
